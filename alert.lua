@@ -43,7 +43,7 @@ for item, pageNo in iterPageItems(friendPages) do
 end
 
 table.insert(frd,User)
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("Lucky block made by sze", "DarkTheme")
 local item = Window:NewTab("Item checking")
 local item1 = item:NewSection("check item")
